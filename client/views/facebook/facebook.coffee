@@ -42,7 +42,7 @@ Template.shareit_facebook.rendered = ->
             base = "https://www.facebook.com/sharer/sharer.php"
             title = encodeURIComponent title
             summary = encodeURIComponent description
-            href = base + "?s=100&p[url]=" + url + "&p[title]=" + title + "&p[summary]=" + summary
+            href = base + "?m2w&s=100&p[url]=" + url + "&p[title]=" + title + "&p[summary]=" + summary
             if img
                 href += "&p[images][0]=" + encodeURIComponent img
     
