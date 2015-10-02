@@ -15,7 +15,7 @@ ShareIt = {
         'description': ''
       'instagram':
         'description': ''
-    siteOrder: ['facebook', 'twitter', 'pinterest', 'googleplus', 'instagram']
+    siteOrder: ['facebook', 'twitter', 'googleplus']
     classes: "large btn"
     iconOnly: false
     faSize: ''
