@@ -13,7 +13,7 @@ Template.shareit_facebook.rendered = ->
         url = data.url || location.origin + location.pathname
         title = data.title
         $('<meta>', { property: 'og:type', content: 'article' }).appendTo 'head'
-        $('<meta>', { property: 'og:site_name', content: location.hostname }).appendTo 'head'
+        $('<meta>', { property: 'og:site_name', content: 'HeartBox - der Datepack-Blog' }).appendTo 'head'
         $('<meta>', { property: 'og:url', content: url }).appendTo 'head'
         $('<meta>', { property: 'og:title', content: title }).appendTo 'head'
         $('<meta>', { property: 'og:description', content: description }).appendTo 'head'
